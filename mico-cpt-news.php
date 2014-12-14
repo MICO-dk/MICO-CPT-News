@@ -117,8 +117,8 @@ class MICO_CPT_News {
 				'name'               => _x( 'News', 'post type general name', $this->plugin_slug ),
 				'singular_name'      => _x( 'News Entry', 'post type singular name', $this->plugin_slug ),
 				'menu_name'          => _x( 'News', 'admin menu', $this->plugin_slug ),
-				'name_admin_bar'     => _x( 'News', 'add new on admin bar', $this->plugin_slug ),
-				'add_new'            => _x( 'Add New', 'sponsor', $this->plugin_slug ),
+				'name_admin_bar'     => _x( 'News Entry', 'add new on admin bar', $this->plugin_slug ),
+				'add_new'            => _x( 'Add New', 'nyhed', $this->plugin_slug ),
 				'add_new_item'       => __( 'Add New News Entry', $this->plugin_slug ),
 				'new_item'           => __( 'New News Entry', $this->plugin_slug ),
 				'edit_item'          => __( 'Edit News Entry', $this->plugin_slug ),
@@ -127,7 +127,7 @@ class MICO_CPT_News {
 				'search_items'       => __( 'Search News', $this->plugin_slug ),
 				'parent_item_colon'  => __( 'Parent News Entry:', $this->plugin_slug ),
 				'not_found'          => __( 'No news entries found.', $this->plugin_slug ),
-				'not_found_in_trash' => __( 'No news entrues found in trash.', $this->plugin_slug )		
+				'not_found_in_trash' => __( 'No news entries found in trash.', $this->plugin_slug )		
 			);
 			$args = array(
 				'labels'             => $labels,
